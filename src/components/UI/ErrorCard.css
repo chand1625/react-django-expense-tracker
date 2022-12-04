@@ -1,0 +1,29 @@
+.error-card {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 1.2rem;
+  background-color: rgb(146, 0, 0);
+}
+
+.error-card p {
+  margin: 0;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.error-card button {
+  background-color: white;
+  color: rgb(146, 0, 0);
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  padding: 0 7px;
+}
+
+.error-card button:hover {
+  background-color: rgba(255, 255, 255, 0.643);
+}
